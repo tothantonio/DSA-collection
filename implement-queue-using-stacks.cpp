@@ -7,7 +7,9 @@ class MyQueue{
     //Space: O(n) // where n is the number of elements in the queue
 public:
 
-    stack<int> input, output;
+    stack<int> input;
+    stack<int> output;
+    
     MyQueue(){
     }
 
